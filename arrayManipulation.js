@@ -35,7 +35,7 @@ function formatArrayStrings(strings, numbers){
 // console.log(resultTask2); 
 
 // ---working code---
-const strArr = ["Hello", "Ewurafua", "How", "Are", "You", "Today?"];
+const strArr = ["Noble", "Ewurafua", "Fidelis", "Mark Atta", "Asare", "Akoto?"];
 const numArr = [1, 2, 3, 4, 6, 7];
 const processed = processArray(numArr);
 const resultTask2 = formatArrayStrings(strArr, processed);
