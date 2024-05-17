@@ -11,7 +11,7 @@ function createUserProfiles(originalNames, modifiedNames){
     }))
 }
 
-const originalNames = ["Noble", "Ewurafua", "Fidelis", "Mark Atta", "Asare", "Akoto?"];
+const originalNames = ["Noble", "Ewurafua", "Fidelis", "Mark Atta", "Asare", "Akoto"];
 const numArr = [1, 2, 3, 4, 6, 7]
 const processedNumbers = processArray(numArr)
 const modifiedNames = formatArrayStrings(originalNames, processedNumbers);
