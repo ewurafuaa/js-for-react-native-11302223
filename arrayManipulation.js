@@ -1,11 +1,5 @@
 function processArray(numbers){
-    return numbers.map(number => {
-        if(number % 2 === 0){
-            return number *  number; //squares the numbers
-        } else {
-            return number * 3; //triples the odd numbers
-        }
-    })
+    return numbers.map(number => (number % 2 === 0 ? number * number : number * 3))
     
 }
 
