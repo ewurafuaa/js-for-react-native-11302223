@@ -5,7 +5,7 @@ function processArray(numbers){
 }
 
 // sample code
-const age = [13, 14, 17, 18, 19];
+const age = [14, 27, 16, 18, 35];
 const resultTask1 = processArray(age)
 console.log("TASK 1:", resultTask1);
 
@@ -29,14 +29,14 @@ function formatArrayStrings(strings, numbers){
 //sample code (Comment out the one that does not require testing)
 // ---error code--- 
 // const strArr = ["Hello", "Ewurafua", "How", "Are", "You", "Today?"];
-// const numArr = [1, 2, 3, 4, 5];
+// const numArr =  [14, 27, 16, 18, 35];
 // const processed = processArray(numArr);
 // const resultTask2 = formatArrayStrings(strArr, processed);
 // console.log(resultTask2); 
 
 // ---working code---
 const strArr = ["Noble", "Ewurafua", "Fidelis", "Mark Atta", "Asare", "Akoto"];
-const numArr = [1, 2, 3, 4, 6, 7];
+const numArr =  [14, 27, 16, 18, 35, 42];
 const processed = processArray(numArr);
 const resultTask2 = formatArrayStrings(strArr, processed);
 console.log("TASK 2:", resultTask2); 
