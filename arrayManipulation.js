@@ -1,9 +1,42 @@
+//--TASK 1---------------------------------------------------------------------------------
 function processArray(numbers){
     return numbers.map(number => (number % 2 === 0 ? number * number : number * 3))
     
 }
 
-// trial code
+// sample code
 const age = [13, 14, 17, 18, 19];
-const result = processArray(age)
-console.log(result);
+const resultTask1 = processArray(age)
+console.log(resultTask1);
+
+
+
+//--TASK 2---------------------------------------------------------------------------------
+function formatArrayStrings(strings, numbers){
+    if (strings.length !== numbers.length){
+        throw new Error ("The length of the two arrays must be equal.")
+    }
+
+    return strings.map((str, index) => {
+        if(numbers[index] % 2 === 0) {
+            return str.toUpperCase(); //Capitalizes the entire string granted the number is even
+        } else {
+            return str.toLowerCase(); //Makes the string lowercase granted the number is odd
+        }
+    });
+}
+
+//sample code (Comment out the one that does not require testing)
+// ---error code--- 
+// const strArr = ["Hello", "Ewurafua", "How", "Are", "You", "Today?"];
+// const numArr = [13, 14, 17, 18, 19];
+// const processed = processArray(numArr);
+// const resultTask2 = formatArrayStrings(strArr, processed);
+// console.log(resultTask2); 
+
+// ---working code---
+const strArr = ["Hello", "Ewurafua", "How", "Are", "You", "Today?"];
+const numArr = [1, 2, 3, 4, 5, 6];
+const processed = processArray(numArr);
+const resultTask2 = formatArrayStrings(strArr, processed);
+console.log(resultTask2); 
