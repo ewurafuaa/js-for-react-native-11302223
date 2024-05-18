@@ -1,5 +1,7 @@
-//--TASK 3---------------------------------------------------------------------------------
 const {processArray, formatArrayStrings} = require("./arrayManipulation")
+
+//--TASK 3----------------------------------------------------------------------------------------------------------
+
 function createUserProfiles(originalNames, modifiedNames){
     if (originalNames.length !== modifiedNames.length){
         throw new Error("The length of the two arrays must be equal.")
@@ -11,6 +13,7 @@ function createUserProfiles(originalNames, modifiedNames){
     }))
 }
 
+//sample code
 const originalNames = ["Noble", "Ewurafua", "Fidelis", "Mark Atta", "Asare", "Akoto"];
 const numArr = [14, 27, 16, 18, 35, 42]
 const processedNumbers = processArray(numArr)

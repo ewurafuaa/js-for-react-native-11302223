@@ -1,4 +1,4 @@
-//--TASK 1---------------------------------------------------------------------------------
+//--TASK 1----------------------------------------------------------------------------------------------------------
 function processArray(numbers){
     return numbers.map(number => (number % 2 === 0 ? number * number : number * 3))
     
@@ -11,7 +11,7 @@ console.log("TASK 1:", resultTask1);
 
 
 
-//--TASK 2---------------------------------------------------------------------------------
+//--TASK 2----------------------------------------------------------------------------------------------------------
 function formatArrayStrings(strings, numbers){
     if (strings.length !== numbers.length){
         throw new Error ("The length of the two arrays must be equal.")
@@ -29,7 +29,7 @@ function formatArrayStrings(strings, numbers){
 //sample code (Comment out the one that does not require testing)
 // ---error code--- 
 // const strArr = ["Hello", "Ewurafua", "How", "Are", "You", "Today?"];
-// const numArr =  [14, 27, 16, 18, 35];
+// const numArr =  [14, 27, 16, 18, 35]; // the length of the strArr is not the same as the length of numArr
 // const processed = processArray(numArr);
 // const resultTask2 = formatArrayStrings(strArr, processed);
 // console.log(resultTask2); 
